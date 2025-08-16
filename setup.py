@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 from typing import List
 
 def get_requirements() -> List[str]:
+    """this function will return list of requirements"""
     requirement_lst: List[str] = []
     try:
         with open('requirements.txt', 'r') as file:

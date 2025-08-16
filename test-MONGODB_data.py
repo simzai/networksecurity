@@ -1,7 +1,11 @@
+import collections.abc
+import collections
+collections.MutableMapping = collections.abc.MutableMapping
+
 
 from pymongo.mongo_client import MongoClient
 
-uri = "mongodb+srv://ksimranjuneja19:anhad22@cluster0.eh2ewox.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://ksimranjuneja19:anhad22@cluster0.yckidvn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 # Create a new client and connect to the server
 client = MongoClient(uri)
